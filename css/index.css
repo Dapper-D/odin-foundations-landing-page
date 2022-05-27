@@ -1,0 +1,214 @@
+/*the major classes used are here*/
+body{
+    margin: 0;
+    display: flex;  
+    flex-direction: column;
+
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937 ;
+    padding-top: 18px;
+}
+
+.wrapper{
+    flex: 1;
+display: flex;
+flex-direction: column;
+}
+
+
+.footer{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px ;
+    color: white;
+    font-size: larger;
+}
+
+/* everything here are the miscallenous classesss used*/
+.header, .block1, .block2, .block3, .footer{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.block1{
+    background-color: #1f2937 ;
+    padding-top: 60px;
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+
+.block3{
+    background-color: #e5e7eb;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.block3 > .six{
+    margin-left: auto;
+}
+
+.block4{
+    background-color: #3882f6;
+    border-radius: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+
+.left{
+    width: 60%;
+}
+
+.left p{
+    margin: 0 ;
+    margin-bottom: 10px;
+}
+
+.right-place-holder > h4{
+    align-self: center;
+    text-align: center;
+    width: 100%;
+}
+
+.header > .left-header{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header > .right-header >a{
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.block1 > .left > .one{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 0;
+}
+
+.block1 > .left > .two{
+    color: white;
+    font-size: 18px;
+}
+
+.top{
+    background-color: #3882f6;
+    border-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    width: 110px;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.block2 > .three{
+    text-align: center;
+    margin: 50px;
+    font-size: 30px;
+    font-weight: 1000;
+
+}
+
+.right-place-holder{
+    background-color: gray;
+    height: 180px;
+    margin: 5px;
+    width: 400px;
+    display: flex;
+    gap: 10px;
+}
+
+.block-cover{
+    display: flex;
+    justify-content: space-around;
+    max-width: 900px;
+    margin: 0 auto;
+    gap: 20px;
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+
+.a1 div{
+    display: inline-block;
+    width: 200px;
+    height:150px; 
+    border:4px solid #3882f6;
+    border-radius: 15px; 
+    
+}
+
+.block3 {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+    
+}
+
+.six{
+    font-weight: bold;
+    float: right;
+}
+
+.under2{
+    height: 80px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom{
+    background-color: #3882f6;
+    border-color: white;
+    border-radius: 15px;
+    width: 110px;
+    height: 50px;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+.under{
+    margin: 30px 90px;
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+.under2 > .under3 > .seven{
+    color: white;
+    font-weight: 1000;
+}
+
+.under2 > .under3 > .seven1{
+    color: white;
+    
+}
+
+.under3 > p{
+    padding: 0;
+    margin: 0;
+}
+
